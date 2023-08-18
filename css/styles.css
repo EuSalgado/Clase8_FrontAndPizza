@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+    padding: .5rem .5rem;
+}
+
+.titulo{
+    padding: .5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.pizza{
+   color: #39B24A; 
+}
+
+.front{
+    color: #FC200C;
+}
+
+.lista-nav{
+    /* background-color: orange; */
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+.elemento-nav{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    background-color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1.25rem 0.62rem 1.5rem 0.62rem;
+    justify-content: space-around;
+}
+
+.envio-gratis, .podio{
+    width: 49%;
+    width: 55rem;
+    height: 32rem;
+    border-radius: 0.5rem;
+}
+
+.envio-gratis{
+    background-image: url(../img/Delivery.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0.32rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery{
+    padding: 0.83em 0em 0em 0.83em;
+    color: #FC200C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.comprando{
+    color: #FFF;
+}
+
+.podio{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.podio-title{
+    color: #FC200C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0rem 5rem 0rem;
+}
+
+
+.podio2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.img-pizza-falling{
+    width: 11rem;
+}
+
+.pizzas-top-5, .lista-pizzas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-foot{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.87rem;
+    font-weight: 300;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0.62rem 0rem;
+    margin: 0rem 0rem 0rem 1.25rem;
+}
+
+.elemento-foot{
+    padding-bottom: 0.5rem;
+}
